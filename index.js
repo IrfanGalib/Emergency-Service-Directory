@@ -124,14 +124,15 @@ document.getElementById("call-card-1").addEventListener("click", function () {
   if (countPoints >= 20) {
     countPoints -= 20;
     alert("Calling National Emergency: 999");
-  } else if (countPoints < 100) {
+  } else if (countPoints < 20) {
     alert("You Don't Enough Points");
+    return;
   }
   document.getElementById("uni-points").innerHTML = countPoints;
 
   const parentContainer = document.getElementById("parent-container");
 
-  parentContainer.innerHTML = "";
+  // parentContainer.innerHTML = "";
   const now = new Date().toLocaleTimeString();
 
   const div = document.createElement("div");
@@ -152,13 +153,13 @@ document.getElementById("call-card-2").addEventListener("click", function () {
   if (countPoints >= 20) {
     countPoints -= 20;
     alert("Police Helpline Number: 999");
-  } else if (countPoints < 100) {
+  } else if (countPoints < 20) {
     alert("You Don't Enough Points");
+    return;
   }
   document.getElementById("uni-points").innerHTML = countPoints;
   const parentContainer = document.getElementById("parent-container");
 
-  parentContainer.innerHTML = "";
   const now = new Date().toLocaleTimeString();
 
   const div = document.createElement("div");
@@ -179,14 +180,14 @@ document.getElementById("call-card-3").addEventListener("click", function () {
   if (countPoints >= 20) {
     countPoints -= 20;
     alert("Fire Service Number: 999");
-  } else if (countPoints < 100) {
+  } else if (countPoints < 20) {
     alert("You Don't Enough Points");
+    return;
   }
   document.getElementById("uni-points").innerHTML = countPoints;
 
   const parentContainer = document.getElementById("parent-container");
 
-  parentContainer.innerHTML = "";
   const now = new Date().toLocaleTimeString();
 
   const div = document.createElement("div");
@@ -209,11 +210,11 @@ document.getElementById("call-card-4").addEventListener("click", function () {
     alert("Ambulance Service: 1994-999999");
   } else if (countPoints < 100) {
     alert("You Don't Enough Points");
+    return;
   }
   document.getElementById("uni-points").innerHTML = countPoints;
   const parentContainer = document.getElementById("parent-container");
 
-  parentContainer.innerHTML = "";
   const now = new Date().toLocaleTimeString();
 
   const div = document.createElement("div");
@@ -234,13 +235,14 @@ document.getElementById("call-card-5").addEventListener("click", function () {
   if (countPoints >= 20) {
     countPoints -= 20;
     alert("Women & Child Helpline: 109");
-  } else if (countPoints < 100) {
+  } else if (countPoints < 20) {
     alert("You Don't Enough Points");
+    return;
   }
   document.getElementById("uni-points").innerHTML = countPoints;
   const parentContainer = document.getElementById("parent-container");
 
-  parentContainer.innerHTML = "";
+  // parentContainer.innerHTML = "";
   const now = new Date().toLocaleTimeString();
 
   const div = document.createElement("div");
@@ -261,13 +263,13 @@ document.getElementById("call-card-6").addEventListener("click", function () {
   if (countPoints >= 20) {
     countPoints -= 20;
     alert("Anti-Corruption Helpline: 106");
-  } else if (countPoints < 100) {
+  } else if (countPoints < 20) {
     alert("You Don't Enough Points");
+    return;
   }
   document.getElementById("uni-points").innerHTML = countPoints;
   const parentContainer = document.getElementById("parent-container");
 
-  parentContainer.innerHTML = "";
   const now = new Date().toLocaleTimeString();
 
   const div = document.createElement("div");
@@ -289,13 +291,13 @@ document.getElementById("call-card-7").addEventListener("click", function (e) {
   if (countPoints >= 20) {
     countPoints -= 20;
     alert("Electricity Helpline: 16216");
-  } else if (countPoints < 100) {
+  } else if (countPoints < 20) {
     alert("You Don't Enough Points");
+    return;
   }
   document.getElementById("uni-points").innerHTML = countPoints;
   const parentContainer = document.getElementById("parent-container");
 
-  parentContainer.innerHTML = "";
   const now = new Date().toLocaleTimeString();
 
   const div = document.createElement("div");
@@ -317,13 +319,14 @@ document.getElementById("call-card-8").addEventListener("click", function (e) {
   if (countPoints >= 20) {
     countPoints -= 20;
     alert("Brac Helpline: 16445");
-  } else if (countPoints < 100) {
+  } else if (countPoints < 20) {
     alert("You Don't Enough Points");
+    return;
   }
   document.getElementById("uni-points").innerHTML = countPoints;
   const parentContainer = document.getElementById("parent-container");
 
-  parentContainer.innerHTML = "";
+  // parentContainer.innerHTML = "";
   const now = new Date().toLocaleTimeString();
 
   const div = document.createElement("div");
@@ -345,13 +348,14 @@ document.getElementById("call-card-9").addEventListener("click", function (e) {
   if (countPoints >= 20) {
     countPoints -= 20;
     alert("Bangladesh Railway Helpline: 163");
-  } else if (countPoints < 100) {
+  } else if (countPoints < 20) {
     alert("You Don't Enough Points");
+    return;
   }
   document.getElementById("uni-points").innerHTML = countPoints;
   const parentContainer = document.getElementById("parent-container");
 
-  parentContainer.innerHTML = "";
+  // parentContainer.innerHTML = "";
   const now = new Date().toLocaleTimeString();
 
   const div = document.createElement("div");
